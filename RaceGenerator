@@ -1,0 +1,27 @@
+from random import randint
+classnumber = int(str(randint(1, 6)) + str(randint(1, 6)))
+print(classnumber)
+
+
+if 11 <= classnumber <= 22:
+    print("Alderlander Human")
+elif 23 <= classnumber <= 31:
+    print("Aslene Human")
+elif 32 <= classnumber <= 34:
+    print("Ailander Human")
+elif 35 <= classnumber <= 41:
+    print("Half-Elf")
+elif 42 <= classnumber <= 44:
+    print("Halfling")
+elif 45 <= classnumber <= 52:
+    print("Goblin")
+elif 53 <= classnumber <= 56:
+    print("Orc")
+elif 61 <= classnumber <= 62:
+    print("Wolfkin")
+elif 63 <= classnumber <= 64:
+    print("Dwarf")
+elif 65 <= classnumber <= 66:
+    print("Elf")
+else: print("TryAgain")
+
